@@ -1,0 +1,16 @@
+_Certificate$ docker push us.icr.io/${SN_ICR_NAMESPACE}/tax-calculator
+Using default tag: latest
+The push refers to repository [us.icr.io/sn-labs-mustafaozdem/tax-calculator]
+fd0df3d82e12: Pushed 
+00e7e06ecea6: Pushed 
+0731f7fa3f1d: Pushed 
+b37811da0441: Pushed 
+28fdcdfac202: Pushed 
+396214f7f8fc: Pushed 
+b1484d87e77a: Pushed 
+df20eaef6952: Pushed 
+f2ddb60a28da: Pushed 
+83eccd85c69c: Pushed 
+47eeda941886: Pushed 
+6a7f953ae30c: Pushed 
+latest: digest: sha256:f42e8a3e73baf6383e41be0c887fae4bb9ea8a320860221adab09f29bca821e8 size: 2815
