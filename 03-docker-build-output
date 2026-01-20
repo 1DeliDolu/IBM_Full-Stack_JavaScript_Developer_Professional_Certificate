@@ -1,0 +1,105 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 311B 0.0s done
+#1 DONE 0.1s
+
+#2 [internal] load metadata for docker.io/library/nginx:latest
+#2 ...
+
+#3 [auth] library/nginx:pull token for registry-1.docker.io
+#3 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/nginx:latest
+#2 DONE 1.8s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 2B 0.0s done
+#4 DONE 0.1s
+
+#5 [internal] load build context
+#5 transferring context: 24.04kB 0.0s done
+#5 DONE 0.1s
+
+#6 [1/6] FROM docker.io/library/nginx:latest@sha256:c881927c4077710ac4b1da63b83aa163937fb47457950c267d92f7e4dedf4aec
+#6 resolve docker.io/library/nginx:latest@sha256:c881927c4077710ac4b1da63b83aa163937fb47457950c267d92f7e4dedf4aec 0.0s done
+#6 DONE 0.2s
+
+#6 [1/6] FROM docker.io/library/nginx:latest@sha256:c881927c4077710ac4b1da63b83aa163937fb47457950c267d92f7e4dedf4aec
+#6 sha256:eaf8753feae0b5aaadb86ac2cb972ff57cff12f877ad50c548fde8092e85e7fb 0B / 1.40kB 0.2s
+#6 sha256:57f0dd1befe210f3a7186fe46ad1552d4bc8864701c8cec580676144bc37d425 0B / 1.21kB 0.2s
+#6 sha256:10b68cfefee1d8726f1f754e9f566b73bd4df2531476315e6ac55b4fe18e1717 0B / 404B 0.2s
+#6 sha256:500799c304244b0545f8f1d54d86d3a17512c219cd0edd3d5f5b60f68f5c6f93 0B / 955B 0.2s
+#6 sha256:eaf8753feae0b5aaadb86ac2cb972ff57cff12f877ad50c548fde8092e85e7fb 1.40kB / 1.40kB 0.5s
+#6 sha256:eaf8753feae0b5aaadb86ac2cb972ff57cff12f877ad50c548fde8092e85e7fb 1.40kB / 1.40kB 0.5s done
+#6 sha256:57f0dd1befe210f3a7186fe46ad1552d4bc8864701c8cec580676144bc37d425 1.21kB / 1.21kB 0.6s done
+#6 sha256:d989100b8a84afca8cb4b5bcc62beec741cb69e181fe7815d79e4aa04c36ca59 0B / 628B 0.3s
+#6 sha256:10b68cfefee1d8726f1f754e9f566b73bd4df2531476315e6ac55b4fe18e1717 404B / 404B 0.8s done
+#6 sha256:500799c304244b0545f8f1d54d86d3a17512c219cd0edd3d5f5b60f68f5c6f93 955B / 955B 0.7s done
+#6 sha256:d989100b8a84afca8cb4b5bcc62beec741cb69e181fe7815d79e4aa04c36ca59 628B / 628B 0.3s done
+#6 sha256:700146c8ad64762607eb0076d9fe376bed85c65f27650a4f3b76fc66f72e9846 0B / 33.07MB 0.2s
+#6 sha256:119d43eec815e5f9a47da3a7d59454581b1e204b0c34db86f171b7ceb3336533 0B / 29.77MB 0.2s
+#6 sha256:700146c8ad64762607eb0076d9fe376bed85c65f27650a4f3b76fc66f72e9846 4.19MB / 33.07MB 0.5s
+#6 sha256:700146c8ad64762607eb0076d9fe376bed85c65f27650a4f3b76fc66f72e9846 7.46MB / 33.07MB 0.6s
+#6 sha256:119d43eec815e5f9a47da3a7d59454581b1e204b0c34db86f171b7ceb3336533 2.10MB / 29.77MB 0.6s
+#6 sha256:700146c8ad64762607eb0076d9fe376bed85c65f27650a4f3b76fc66f72e9846 10.49MB / 33.07MB 0.8s
+#6 sha256:700146c8ad64762607eb0076d9fe376bed85c65f27650a4f3b76fc66f72e9846 12.58MB / 33.07MB 0.9s
+#6 sha256:119d43eec815e5f9a47da3a7d59454581b1e204b0c34db86f171b7ceb3336533 5.24MB / 29.77MB 0.9s
+#6 sha256:700146c8ad64762607eb0076d9fe376bed85c65f27650a4f3b76fc66f72e9846 15.73MB / 33.07MB 1.1s
+#6 sha256:700146c8ad64762607eb0076d9fe376bed85c65f27650a4f3b76fc66f72e9846 19.92MB / 33.07MB 1.2s
+#6 sha256:119d43eec815e5f9a47da3a7d59454581b1e204b0c34db86f171b7ceb3336533 8.39MB / 29.77MB 1.2s
+#6 sha256:700146c8ad64762607eb0076d9fe376bed85c65f27650a4f3b76fc66f72e9846 22.02MB / 33.07MB 1.4s
+#6 sha256:700146c8ad64762607eb0076d9fe376bed85c65f27650a4f3b76fc66f72e9846 26.21MB / 33.07MB 1.5s
+#6 sha256:119d43eec815e5f9a47da3a7d59454581b1e204b0c34db86f171b7ceb3336533 11.53MB / 29.77MB 1.5s
+#6 sha256:700146c8ad64762607eb0076d9fe376bed85c65f27650a4f3b76fc66f72e9846 29.36MB / 33.07MB 1.7s
+#6 sha256:700146c8ad64762607eb0076d9fe376bed85c65f27650a4f3b76fc66f72e9846 33.07MB / 33.07MB 1.9s done
+#6 sha256:119d43eec815e5f9a47da3a7d59454581b1e204b0c34db86f171b7ceb3336533 17.83MB / 29.77MB 2.0s
+#6 sha256:119d43eec815e5f9a47da3a7d59454581b1e204b0c34db86f171b7ceb3336533 22.02MB / 29.77MB 2.1s
+#6 sha256:119d43eec815e5f9a47da3a7d59454581b1e204b0c34db86f171b7ceb3336533 26.21MB / 29.77MB 2.3s
+#6 sha256:119d43eec815e5f9a47da3a7d59454581b1e204b0c34db86f171b7ceb3336533 29.77MB / 29.77MB 2.4s done
+#6 extracting sha256:119d43eec815e5f9a47da3a7d59454581b1e204b0c34db86f171b7ceb3336533
+#6 extracting sha256:119d43eec815e5f9a47da3a7d59454581b1e204b0c34db86f171b7ceb3336533 0.9s done
+#6 DONE 4.3s
+
+#6 [1/6] FROM docker.io/library/nginx:latest@sha256:c881927c4077710ac4b1da63b83aa163937fb47457950c267d92f7e4dedf4aec
+#6 extracting sha256:700146c8ad64762607eb0076d9fe376bed85c65f27650a4f3b76fc66f72e9846
+#6 extracting sha256:700146c8ad64762607eb0076d9fe376bed85c65f27650a4f3b76fc66f72e9846 0.7s done
+#6 DONE 5.0s
+
+#6 [1/6] FROM docker.io/library/nginx:latest@sha256:c881927c4077710ac4b1da63b83aa163937fb47457950c267d92f7e4dedf4aec
+#6 extracting sha256:d989100b8a84afca8cb4b5bcc62beec741cb69e181fe7815d79e4aa04c36ca59 0.0s done
+#6 extracting sha256:500799c304244b0545f8f1d54d86d3a17512c219cd0edd3d5f5b60f68f5c6f93 0.0s done
+#6 extracting sha256:10b68cfefee1d8726f1f754e9f566b73bd4df2531476315e6ac55b4fe18e1717 0.0s done
+#6 extracting sha256:57f0dd1befe210f3a7186fe46ad1552d4bc8864701c8cec580676144bc37d425 0.0s done
+#6 DONE 5.1s
+
+#6 [1/6] FROM docker.io/library/nginx:latest@sha256:c881927c4077710ac4b1da63b83aa163937fb47457950c267d92f7e4dedf4aec
+#6 extracting sha256:eaf8753feae0b5aaadb86ac2cb972ff57cff12f877ad50c548fde8092e85e7fb 0.0s done
+#6 DONE 5.2s
+
+#7 [2/6] COPY favicon.ico /usr/share/nginx/html/favicon.ico
+#7 DONE 0.2s
+
+#8 [3/6] COPY index.html /usr/share/nginx/html/index.html
+#8 DONE 0.1s
+
+#9 [4/6] COPY script.js /usr/share/nginx/html/script.js
+#9 DONE 0.1s
+
+#10 [5/6] COPY style.css /usr/share/nginx/html/style.css
+#10 DONE 0.1s
+
+#11 [6/6] COPY taxCalculator.js /usr/share/nginx/html/taxCalculator.js
+#11 DONE 0.1s
+
+#12 exporting to image
+#12 exporting layers
+#12 exporting layers 0.4s done
+#12 exporting manifest sha256:8f6c8598bde1dabbbe95e2c7dfd2fbbd45c67b86a7c2cf99b9746bc651d81df9 0.0s done
+#12 exporting config sha256:39f7add3a110b9422a5f1fb0a8b6cbe82cac8a841ae277c0a93722989174fc04 0.0s done
+#12 exporting attestation manifest sha256:fcc3f96b81fcb9b19fc34652c250d8e8e4f7f8dc413269864234c1845841cd77 0.0s done
+#12 exporting manifest list sha256:620f9d296004b1ed765860566c6a7328cbdf076f6455ca5313516e5c66e0a8c6
+#12 exporting manifest list sha256:620f9d296004b1ed765860566c6a7328cbdf076f6455ca5313516e5c66e0a8c6 0.0s done
+#12 naming to docker.io/library/tax-calculator:latest done
+#12 unpacking to docker.io/library/tax-calculator:latest 0.1s done
+#12 DONE 0.7s
